@@ -1,0 +1,219 @@
+.area {
+    width: 1000px;
+    background-color: skyblue;
+    margin: 0 auto;
+}
+
+.head {
+    background-color: #2471A3;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    width: 300px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.menu-bar {
+    float: right;
+    width: 700px;
+}
+
+.active {
+    background-color: orange;
+}
+
+.menu-bar ul {
+    text-align: right;
+    list-style: none;
+}
+
+.menu-bar ul li {
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.menu-bar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menu-bar ul li a:hover {
+    background-color: orange;
+    color: #40E0D0;
+}
+
+.bannar {
+    padding-top: 1px;
+}
+
+.bannar img {
+    width: 100%;
+}
+
+.about {
+    overflow: hidden;
+    padding: 20px 30px;
+    background-color: #00CED1;
+}
+
+.about_one {
+    float: left;
+    width: 440px;
+}
+
+.button {
+    font-size: 16px;
+    background-color: #008CBA;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 15px 2px;
+    padding: 10px 10px;
+    color: white;
+}
+
+.about_one h4,
+.contact_form h4,
+.contact_address h4 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.about_one p {
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+}
+
+.about_one ul {
+    list-style: none;
+}
+
+.about_one ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.services {
+    background-color: #6A8290;
+    overflow: hidden;
+}
+
+.services h4,
+.gallary h4 {
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.services_one,
+.gallary_one,
+.video_one {
+    display: inline-block;
+    width: 250px;
+    font-size: 18px;
+    transition: 0.4s;
+    overflow: hidden;
+    margin: 40px;
+    text-align: center;
+	-webkit-animation: mymove 5s infinite;
+	animation: mymove 5s infinite;
+    background: #fff;
+}
+
+.services_one img {
+    overflow: hidden;
+    padding: 15px 10px;
+    width: 50px;
+}
+
+.services_one:hover {
+    background: green;
+    color: #00ffff;
+}
+
+.gallary {
+    background-color: #74B2D8;
+    overflow: hidden;
+}
+
+
+.gallary_one img {
+    overflow: hidden;
+    width: 150px;
+    padding: 15px 10px;
+}
+
+.gallary_one:hover {
+    background: green;
+    color: #00ffff;
+}
+
+.video_content {
+    background-color: #73C6B6 ;
+    overflow: hidden;
+}
+
+.contact {
+    overflow: hidden;
+    padding: 0 20px;
+    background-color: teal;
+}
+
+.contact_form {
+    float: left;
+    width: 620px;
+    margin-right: 20px;
+}
+
+.contact_form input,
+.contact_form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.contact_form input[type="submit"] {
+    background-color: darkblue;
+    color: white;
+    font-size: 15px;
+    width: 35%;
+}
+
+.contact_form input[type="submit"]:hover {
+    background-color: #D8BFD8;
+    color: white;
+}
+
+.contact_address {
+    float: right;
+    width: 280px;
+}
+
+.contact_address ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact_address ul li {
+    color: white;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #1F618D;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
